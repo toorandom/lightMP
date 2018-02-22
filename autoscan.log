@@ -1,0 +1,30 @@
+autoscan: warning: missing AC_CHECK_FUNCS([memset]) wanted by: 
+	bint_memory.c:74
+autoscan: warning: missing AC_CHECK_HEADERS([fcntl.h]) wanted by: 
+	lightmp.h:6
+autoscan: warning: missing AC_CHECK_HEADERS([stdlib.h]) wanted by: 
+	lightmp.h:1
+autoscan: warning: missing AC_CHECK_HEADERS([string.h]) wanted by: 
+	lightmp.h:3
+autoscan: warning: missing AC_CHECK_HEADERS([unistd.h]) wanted by: 
+	lightmp.h:7
+autoscan: warning: missing AC_C_CONST wanted by: 
+	bint_divshort.c:6
+	bint_sub.c:10
+autoscan: warning: missing AC_HEADER_STDC wanted by: 
+	lightmp.h:1
+	lightmp.h:3
+	bint_atobint.c:17
+	bint_atobint.c:28
+	bint_atobint.c:36
+	bint_memory.c:62
+	bint_memory.c:74
+autoscan: warning: missing AC_TYPE_SIZE_T wanted by: 
+	bint_atobint.c:6
+	lightmp.h:81
+	lightmp.h:81
+	lightmp.h:107
+	bint_memory.c:83
+	bint_memory.c:83
+	bint_memory.c:96
+	bint_memory.c:96

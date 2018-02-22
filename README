@@ -1,0 +1,11 @@
+This is the lightmp library to perform multi precision arithmetic with big numbers.
+It's purpose is to serve as engine to libacrypt with is a library that implements
+the arithmetic on finite fields and algebraic surfaces.
+
+Documentation will be ready in 
+
+http://math.co.ro/acrypt/
+
+Eduardo Ruiz Duarte
+
+beck@math.co.ro

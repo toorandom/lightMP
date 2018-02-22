@@ -1,0 +1,8 @@
+for each in `ls *.c`
+do
+echo gcc $each -m64 -c -fprofile-arcs -ftest-coverage 
+gcc $each -m64 -c -fprofile-arcs -ftest-coverage 
+done
+
+echo gcc -o demo -m64 -fprofile-arcs -ftest-coverage
+gcc -o demo -m64 -fprofile-arcs -ftest-coverage *.o -llightmp
